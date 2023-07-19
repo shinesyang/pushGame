@@ -3,7 +3,7 @@ module github.com/shinesyang/pushGame
 go 1.18
 
 require (
-	github.com/BurntSushi/toml v0.3.1
+	github.com/BurntSushi/toml v1.3.2
 	github.com/shinesyang/common v0.0.0-20230714113657-5f46dd0526d4
 	gorm.io/driver/mysql v1.5.1
 	gorm.io/gorm v1.25.2
