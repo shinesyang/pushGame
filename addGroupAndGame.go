@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/shinesyang/pushGame/execute"
+	"github.com/shinesyang/pushGame/execute"
 
-	"gitee.com/shinesyang/pushGame/domain/utils"
+	"github.com/shinesyang/pushGame/domain/utils"
 
 	"github.com/shinesyang/common"
 )

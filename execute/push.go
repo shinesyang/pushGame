@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/shinesyang/pushGame/overall"
-	"gitee.com/shinesyang/pushGame/result"
+	"github.com/shinesyang/pushGame/overall"
+	"github.com/shinesyang/pushGame/result"
 
-	"gitee.com/shinesyang/pushGame/tools"
+	"github.com/shinesyang/pushGame/tools"
 
 	"gorm.io/gorm"
 
-	"gitee.com/shinesyang/pushGame/domain/model"
+	"github.com/shinesyang/pushGame/domain/model"
 
 	"github.com/shinesyang/common"
 )

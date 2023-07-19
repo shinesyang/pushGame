@@ -9,9 +9,9 @@ import (
 
 	"time"
 
-	"gitee.com/shinesyang/pushGame/overall"
+	"github.com/shinesyang/pushGame/overall"
 
-	"gitee.com/shinesyang/pushGame/tools"
+	"github.com/shinesyang/pushGame/tools"
 
 	"github.com/shinesyang/common"
 )

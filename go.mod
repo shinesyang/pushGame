@@ -1,4 +1,4 @@
-module gitee.com/shinesyang/pushGame
+module github.com/shinesyang/pushGame
 
 go 1.18
 

@@ -4,7 +4,7 @@ import (
 	"flag"
 	"strings"
 
-	"gitee.com/shinesyang/pushGame/execute"
+	"github.com/shinesyang/pushGame/execute"
 
 	"github.com/shinesyang/common"
 )

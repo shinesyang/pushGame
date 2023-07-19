@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"gitee.com/shinesyang/pushGame/overall"
+	"github.com/shinesyang/pushGame/overall"
 
 	"github.com/shinesyang/common"
 	"gorm.io/driver/mysql"
