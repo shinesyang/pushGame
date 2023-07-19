@@ -1,0 +1,6 @@
+2023-07-19 12:02:30	INFO	execute/push.go:155	打印当前参数：{"dataVersion":1,"fightIds":"","gameData":[{"serverId":"1","serverName":"1-1(内网)"},{"serverId":"2","serverName":"1-2(内网)"}],"groupDesc":"199的游戏服","groupId":1,"groupIp":"192.168.101.39","groupVersion":1,"httpPort":18004,"platformId":1,"proxy":2,"ready":0,"report":1,"serverDomain":"192.168.101.199","serverIp":"192.168.101.199","serverPort":18003,"shareHost":"192.168.101.199","sharePort":18000,"sign":"4b71dd6e9d07a6cb664d4f1751f264c7","time":"1689739350305","worldIds":""}
+2023-07-19 12:02:30	INFO	execute/push.go:198	添加成功,当前group id为: 1,group名: 199的游戏服
+2023-07-19 12:02:30	INFO	execute/push.go:200	添加成功的game有: [1]:succ update,[2]:succ update
+2023-07-19 12:09:05	INFO	execute/push.go:155	打印当前参数：{"dataVersion":1,"fightIds":"","gameData":[{"serverId":"16","serverName":"1-16(闫)"}],"groupDesc":"1_15,1_16","groupId":7,"groupIp":"192.168.101.39","groupVersion":1,"httpPort":18004,"platformId":1,"proxy":2,"ready":0,"report":1,"serverDomain":"192.168.200.107","serverIp":"192.168.200.107","serverPort":18003,"shareHost":"192.168.101.199","sharePort":18000,"sign":"2b3aa2165e7c76d3cc99222d4c841aee","time":"1689739745226","worldIds":"3"}
+2023-07-19 12:09:05	INFO	execute/push.go:198	添加成功,当前group id为: 7,group名: 1_15,1_16
+2023-07-19 12:09:05	INFO	execute/push.go:200	添加成功的game有: [16]:succ update
