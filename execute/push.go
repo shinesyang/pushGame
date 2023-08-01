@@ -121,6 +121,7 @@ func (e *GroupGame) GetParam() map[string]interface{} {
 	Parameter["groupVersion"] = e.GroupDataModel.GroupExtend.GroupVersion
 	Parameter["dataVersion"] = e.GroupDataModel.GroupExtend.DataVersion
 	Parameter["groupIp"] = e.GroupDataModel.GroupExtend.GameIp
+	Parameter["platformNickname"] = e.GroupDataModel.PlatformNickname
 
 	// game
 	for _, game := range e.GameDataModel {

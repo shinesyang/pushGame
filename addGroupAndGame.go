@@ -16,14 +16,14 @@ import (
 var Id string
 
 func init() {
-	platformId := flag.String("platform_id", "", "推送到后台的platform_id,多个ID使用,分隔")
+	groupId := flag.String("group_id", "", "推送到后台的group_id,多个ID使用,分隔")
 	flag.Parse()
-	Id = *platformId
+	Id = *groupId
 }
 
 func main() {
 	if Id == "" {
-		common.Logger.Panic("platform_id为必传参数")
+		common.Logger.Panic("group_id为必传参数")
 	}
 	Ids := strings.Split(Id, ",")
 	connDB := utils.ConnDB()
