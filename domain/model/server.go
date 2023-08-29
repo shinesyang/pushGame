@@ -8,8 +8,10 @@ type ServerData struct {
 	GameIp string `gorm:"column:gameIp;type:varchar(255)" json:"gameIp"`
 	DoName string `gorm:"column:doName;type:varchar(255)" json:"doName"`
 	//SshPort int    `gorm:"column:sshPort;type:int(11)" json:"sshPort"`
-	State int `gorm:"column:state;type:int(11)" json:"state"`
-	Num   int `gorm:"-:all" json:"num"` // 这个字段不生成到数据库
+	State     int  `gorm:"column:state;type:int(11)" json:"state"`
+	BigVolume bool `gorm:"column:bigVolume;type:bool" json:"bigVolume"`
+	Recycle   bool `gorm:"column:recycle;type:bool;comment:'是否回收'" json:"recycle"`
+	Num       int  `gorm:"-:all" json:"num"` // 这个字段不生成到数据库
 }
 
 func (ServerData) TableName() string {

@@ -64,7 +64,7 @@ func RestStatus(groupId, state string) {
 	defer response.Body.Close()
 
 	if response.StatusCode != 200 {
-		common.Logger.Panicf("未知的请求错误: %v", err)
+		common.Logger.Panicf("未知的请求错误: %v", response.StatusCode)
 	}
 
 	readAll, _ := ioutil.ReadAll(response.Body)

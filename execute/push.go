@@ -130,6 +130,7 @@ func (e *GroupGame) GetParam() map[string]interface{} {
 		gameIdStr := strconv.FormatInt(gameId, 10)
 		gameMap["serverId"] = gameIdStr
 		gameMap["serverName"] = game.ServerName
+		gameMap["mixServer"] = game.MixServer
 		Game = append(Game, gameMap)
 	}
 	Parameter["gameData"] = Game
@@ -182,7 +183,7 @@ func (e *GroupGame) PushGameToManager() {
 	readAll, _ := ioutil.ReadAll(response.Body)
 
 	if response.StatusCode != 200 {
-		common.Logger.Infof("输出返回结果: %v", string(readAll))
+		common.Logger.Errorf("输出返回结果: %v", string(readAll))
 		common.Logger.Panicf("未知的请求错误: %v,当前code: %d", err, response.StatusCode)
 	}
 

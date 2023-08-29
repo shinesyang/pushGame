@@ -12,6 +12,7 @@ type GameData struct {
 	//ServersStr string `gorm:"column:serversStr;type:longtext" json:"serversStr"`
 	Servers    string `gorm:"column:servers;type:varchar(255)" json:"servers"`
 	ServerName string `gorm:"column:serverName;type:varchar(255)" json:"server_name"`
+	MixServer  string `gorm:"column:mixServer;type:varchar(255)" json:"mixServer"`
 }
 
 func (GameData) TableName() string {
