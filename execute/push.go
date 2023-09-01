@@ -122,6 +122,7 @@ func (e *GroupGame) GetParam() map[string]interface{} {
 	Parameter["dataVersion"] = e.GroupDataModel.GroupExtend.DataVersion
 	Parameter["groupIp"] = e.GroupDataModel.GroupExtend.GameIp
 	Parameter["platformNickname"] = e.GroupDataModel.PlatformNickname
+	Parameter["logPath"] = e.GroupDataModel.LogPath
 
 	// game
 	for _, game := range e.GameDataModel {
@@ -131,6 +132,7 @@ func (e *GroupGame) GetParam() map[string]interface{} {
 		gameMap["serverId"] = gameIdStr
 		gameMap["serverName"] = game.ServerName
 		gameMap["mixServer"] = game.MixServer
+		gameMap["servers"] = game.Servers
 		Game = append(Game, gameMap)
 	}
 	Parameter["gameData"] = Game
