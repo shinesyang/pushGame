@@ -197,6 +197,9 @@ func (e *GroupGame) PushGameToManager() {
 		common.Logger.Panicf("请求返回参数解析失败: %v", err1)
 	}
 
+	marshal1, _ := json.Marshal(resultData)
+	common.Logger.Debugf("返回请求结果: %s", string(marshal1))
+
 	if resultData.Code == 0 {
 		succServers := resultData.SuccServers
 		failServers := resultData.FailServers
